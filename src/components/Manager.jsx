@@ -185,18 +185,18 @@ const Manager = () => {
 
                         <div className="relative flex-grow w-full ">
                             <label htmlFor="full-name" className="  leading-7 text-sm text-gray-600">Web URL</label>
-                            <input onChange={handlechange} value={form.site} type="email" id="full-name" name="site" className="border-2 border-blue-400 w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder='xyz.com' />
+                            <input onChange={handlechange} value={form.site} type="email" id="full-name" name="site" className="border-2 border-blue-500 w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder='xyz.com' />
                         </div>
 
                         <div className="relative flex-grow w-full">
                             <label htmlFor="email" className="leading-7 text-sm text-gray-600">Username</label>
-                            <input onChange={handlechange} value={form.username} type="text" id="username" name="username" className="border-2 border-blue-400  w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder='John' />
+                            <input onChange={handlechange} value={form.username} type="text" id="username" name="username" className="border-2 border-blue-500  w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder='John' />
                         </div>
 
                         <div className="relative flex-grow w-full">
                             <label htmlFor="email" className="leading-7 text-sm text-gray-600">Password</label>
                             <FontAwesomeIcon className='mx-2 text-purple-500' icon={(showpassword) ? faEye : faEyeSlash} onClick={handleShowPassword} />
-                            <input onChange={handlechange} value={form.password} type={showpassword ? 'password' : 'text'} id="email" name="password" className=" border-2 border-blue-400  w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                            <input onChange={handlechange} value={form.password} type={showpassword ? 'password' : 'text'} id="email" name="password" className="border-2 border-blue-500  w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                         </div>
 
                     </div>
